@@ -382,6 +382,7 @@ span {
   /* display: flex; */
   flex-wrap: wrap;
   overflow: scroll;
+  overflow-x: hidden;
 }
 .socialMediaPages:hover {
   background: linear-gradient(
