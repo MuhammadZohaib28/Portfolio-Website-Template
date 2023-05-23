@@ -195,6 +195,16 @@ marquee {
   transition: all ease 1s;
 }
 
+.mainSectionHeading{
+  border: 1px solid red;
+  width: 45rem;
+}
+
+.frontEDev{
+  border: 1px solid red;
+  width: 45rem;
+}
+
 .paraMainSection {
   margin: 1rem;
   /* border: 1px solid red; */
