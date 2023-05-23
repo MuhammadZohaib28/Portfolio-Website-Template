@@ -616,18 +616,18 @@ span {
 }
 
 .postCenter {
-  border: 1px solid red;
-  width: 50vw;
+  /* border: 1px solid red; */
+  width: 55vw;
   margin: 0.8rem auto;
   
 }
 
 .postDiscription{
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 
 .postDiscriptionSection {
-  /* border: 1px solid blue; */
+  border: 1px solid blue;
   text-align: start;
   padding: 0.5rem;
   background: linear-gradient(
@@ -640,7 +640,7 @@ span {
 }
 
 .postBottom {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   padding: 0.5rem;
   background: linear-gradient(
     60deg,
@@ -653,10 +653,10 @@ span {
 }
 
 .postBottomImg {
-  height: 27rem;
-  width: 46.8rem;
+  height: 24rem;
+  width: 37.5rem;
   border-radius: 0.2rem;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .postBottomImgContainer {
