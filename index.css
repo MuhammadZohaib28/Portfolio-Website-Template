@@ -656,14 +656,6 @@ span {
   /* width: 100rem; */
 }
 
-.likeAndHeart {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  /* margin: 1rem 0.7rem; */
-  gap: 1.5rem;
-  /* border: 1px solid red; */
-}
 
 .postCommentDiscription {
   display: flex;
