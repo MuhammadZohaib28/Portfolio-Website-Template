@@ -72,7 +72,7 @@ ul {
   list-style: none;
   gap: 3rem;
   /* border: 1px solid rgb(55, 255, 0); */
-  padding: 1rem;
+  padding: 0.6rem;
   /* background: linear-gradient(
     96.2deg,
     rgb(255, 230, 112, 0.145) 10.4%,
@@ -112,6 +112,14 @@ li {
   font-size: 1.1rem;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
+}
+
+li:hover{
+  background: linear-gradient(
+    109.6deg,
+    rgb(80, 35, 217, 0.854) 11.2%,
+    rgb(217, 35, 189, 0.854) 91.1%
+  );
 }
 
 marquee {
@@ -338,6 +346,74 @@ span {
   margin-left: 7rem;
   margin-top: 1.8rem;
   margin-bottom: 0.5rem;
-  background: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+  /* background: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%); */
+  background: radial-gradient(circle at 10% 20%, rgb(255, 189, 189) 0%, rgb(255, 216, 168) 62%, rgb(255, 248, 168) 100.7%);
   border-radius: 0.4rem;
+
+  background: linear-gradient(
+    -20deg,
+    rgb(233, 222, 250, 0.345) 0%,
+    rgb(251, 252, 219, 0.345) 100%
+  );
+}
+
+.socialMediaPages{
+  position: absolute;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 75%;
+  margin: 13rem 8rem 13rem 5rem;
+  height: 48vh;
+  border-radius: 0.8rem;
+  background: linear-gradient(90.5deg, rgb(247, 204, 0, 0.154) 0.2%, rgb(247, 0, 0, 0.154) 27.3%, rgb(161, 0, 156, 0.154) 85.5%);
+}
+.socialMediaPages:hover{
+  background: linear-gradient(90.5deg, rgb(247, 204, 0, 0.654) 0.2%, rgb(247, 0, 0, 0.654) 27.3%, rgb(161, 0, 156, 0.654) 85.5%);
+}
+.socialMedia{
+  /* border: 1px solid black; */
+
+  padding: 3rem;
+  border-radius: 10.5rem;
+  background: linear-gradient(113.9deg, rgb(255, 7, 7, 0.345) -4.5%, rgb(255, 255, 5, 0.345) 98.8%);
+  background: linear-gradient(
+    -20deg,
+    rgb(233, 222, 250, 0.345) 0%,
+    rgb(251, 252, 219, 0.345) 100%
+  );
+  transform-style: preserve-3d;
+  transition: all 1s ease;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; 
+  
+  /* transition: all ease 2s; */
+
+}
+
+.socialMedia:hover{
+  background: linear-gradient(57.4deg, rgb(249, 206, 183) 4.6%, rgb(234, 174, 202) 26%, rgb(210, 182, 226) 49.1%, rgb(173, 209, 242) 86.5%);  cursor: pointer;
+  transform: rotateY(360deg);
+
+
+}
+
+.socialMediaIcon{
+  /* opacity: 0.5; */
+  height: 13rem;
+}
+
+.socialMediaSectionHeadingContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  margin: 1rem auto;
+  /* border: 1px solid red; */
+  width: 40%;
+  padding: 0.5rem;
+  background: radial-gradient(circle at 10% 20%, rgb(210, 36, 129, 0.545) 0%, rgb(152, 75, 215, 0.545) 90%);
+  box-shadow: rgba(0, 0, 0, 0.95) 0px 25px 20px -22px;
+    border-radius: 0.5rem;
+
 }
