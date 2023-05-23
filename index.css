@@ -649,6 +649,7 @@ span {
   height: 27rem;
   width: 46.8rem;
   border-radius: 0.2rem;
+  object-fit: cover;
 }
 
 .postBottomImgContainer {
